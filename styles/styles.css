@@ -4,7 +4,7 @@ html {
 }
 .mainPage {
     width: 100%;
-    max-width: 160rem;
+    /* max-width: 177rem; */
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ nav a {
     /* text-align: space-evenly; */
     color: #5a5a5a;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 2.5rem 2.5rem 1rem 2.5rem;
     margin-right: 1rem;
 
@@ -35,14 +35,14 @@ nav a:hover {
 
 .aboutMe {
     background: #fff;
-    height: 55rem;
+    height: 80rem;
     margin-left: 4rem;
     justify-content: space-between;
 }
 
 article h1 {
     color: #6fbf49;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 10rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -50,7 +50,7 @@ article h1 {
 
 article h2 {
     color: #585858;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 5rem;
     margin-top: 1rem;
@@ -58,8 +58,8 @@ article h2 {
 }
 .aboutMe p {
 
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 3.2rem;
     color: #585858;
 }
 
@@ -71,32 +71,114 @@ figure {
 }
 
 figure img{
-    width: 68rem;
+    width: 100rem;
     padding-bottom: 0;
 }
 
 .aboutTechnology {
     justify-content: space-between; 
     background: #8ac74d;
-    height: 50rem;
+    height: 70rem;
+ 
+}
+
+.aboutTechnology h2 {
+    font-size: 4.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.aboutTechnology h3 {
+    font-size: 3.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    margin-bottom: 9rem;
+    margin-left: 4rem;
+}
+
+.listOfTechnology {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.listOfTechnology p{
+    color: #515151;
+    font-size: 2.6rem;
+    text-transform: uppercase;
 }
 
 .firstBox,.secondBox,.thirdBox {
-    height: 25rem;
+    background-color: #fff;
+    width: 29rem;
+    height: 29rem;
+}
+
+.firstBox,.secondBox,.thirdBox img {
+    margin: 1rem;
 }
 
 .socialMedia {
     justify-content: space-between;
-    background: #E05A2B;
+    height: 74.5rem;
+    background: #fff;
 }
 
 .fourthBox, .fifthBox {
     height: 30rem;  
 }
 
+.fifthBox img{
+    width: 60rem;
+    padding-bottom: 0;
+}
+
+.fourthBox h3 {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    color: #5364ae;
+    margin-left: 4rem;
+}
+
+.fourthBox h4 {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: #545454;
+    margin-left: 4rem;
+}
+
+button {
+    width: 44rem;
+    height: 8.5rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    border-radius: 5rem;
+    
+}
+
+.linkedIn{
+    background-color: #5364ae;
+}
+
+.gitHub{
+    background-color: #59489d;
+
+}
+
+button a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
 footer {
-    height: 15rem; 
-    background: #B61173;
+    height: 12rem; 
+    background: #5364ae;
 }
 
 
