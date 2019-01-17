@@ -71,8 +71,9 @@ figure {
 }
 
 figure img{
-    width: 100rem;
+    max-width: 100%;
     padding-bottom: 0;
+    display: block;
 }
 
 .aboutTechnology {
@@ -132,8 +133,9 @@ figure img{
 }
 
 .fifthBox img{
-    width: 60rem;
+    max-width: 100%;
     padding-bottom: 0;
+    display: block;
 }
 
 .fourthBox h3 {
