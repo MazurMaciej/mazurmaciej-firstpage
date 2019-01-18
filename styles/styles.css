@@ -1,11 +1,19 @@
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 .mainPage {
     width: 100%;
     /* max-width: 177rem; */
     margin: 0 auto;
+}
+
+.fixedMenu {
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
 }
 
 nav {
@@ -26,7 +34,7 @@ nav a {
     font-size: 2rem;
     padding: 2.5rem 2.5rem 1rem 2.5rem;
     margin-right: 1rem;
-
+    border-bottom: 2px solid #fff;
 }
 
 nav a:hover {
@@ -34,10 +42,19 @@ nav a:hover {
 }
 
 .aboutMe {
-    background: #fff;
     height: 80rem;
-    margin-left: 4rem;
-    justify-content: space-between;
+    /* height: 80vh; */
+    /* justify-content: space-between; */
+    box-sizing: border-box;
+    background: url(../img/sekcja1.png) no-repeat right bottom;
+    /* background-size: 100%; (50% w mediaQueries- elementy do skalowania 
+    transition: background-size 1000ms; */
+    margin: 0px;
+
+}
+
+article {
+    margin-left: 6rem;
 }
 
 article h1 {
@@ -63,23 +80,24 @@ article h2 {
     color: #585858;
 }
 
-figure {
+/*figure {
     margin: 0;
     padding-bottom: 0;
     align-self: flex-end;
+    justify-self: flex-end;
 
-}
+} 
 
 figure img{
     width: 100rem;
     padding-bottom: 0;
-}
+} */
 
 .aboutTechnology {
     justify-content: space-between; 
     background: #8ac74d;
     height: 70rem;
- 
+    /* box-shadow: 0 3px 5px #888888; */
 }
 
 .aboutTechnology h2 {
@@ -87,7 +105,8 @@ figure img{
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-    margin-left: 4rem;
+    margin-left: 6rem;
+    padding-top: 7rem;
 }
 
 .aboutTechnology h3 {
@@ -96,7 +115,7 @@ figure img{
     text-transform: uppercase;
     margin-top: 0.5rem;
     margin-bottom: 9rem;
-    margin-left: 4rem;
+    margin-left: 6rem;
 }
 
 .listOfTechnology {
@@ -109,12 +128,22 @@ figure img{
     color: #515151;
     font-size: 2.6rem;
     text-transform: uppercase;
+    margin-top: 1rem;
 }
 
 .firstBox,.secondBox,.thirdBox {
     background-color: #fff;
     width: 29rem;
     height: 29rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: width 1300ms;
+}
+
+.firstBox:hover, .secondBox:hover, .thirdBox:hover {
+    width: 70rem;
 }
 
 .firstBox,.secondBox,.thirdBox img {
@@ -136,18 +165,20 @@ figure img{
     padding-bottom: 0;
 }
 
+
 .fourthBox h3 {
     font-size: 4.8rem;
     text-transform: uppercase;
     color: #5364ae;
-    margin-left: 4rem;
+    margin-top: 7rem;
+    margin-left: 6rem;
 }
 
 .fourthBox h4 {
     font-size: 3.6rem;
     text-transform: uppercase;
     color: #545454;
-    margin-left: 4rem;
+    margin-left: 6rem;
 }
 
 button {
