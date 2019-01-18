@@ -9,8 +9,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 0 -20px; */
-    /* justify-content: space-between; */
+
 }
 
 .m-col1, .m-col2, .m-col3, .m-col4 {

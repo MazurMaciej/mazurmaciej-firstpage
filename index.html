@@ -15,17 +15,19 @@
 
 <body>
     <div class="mainPage">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Technologie</a></li>
-                    <li><a href="#">Network</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-            </nav>
+        <header id="aboutMe">
+            <div class="fixedMenu">
+                <nav>
+                    <ul>
+                        <li><a href="#aboutMe">O mnie</a></li>
+                        <li><a href="#aboutTechnology">Technologie</a></li>
+                        <li><a href="#aboutNetwork">Network</a></li>
+                        <li><a href="#aboutContact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <div class="row aboutMe">
+        <div class="row aboutMe" >
             <article class="col4">
                 <h1>witaj</h1>
                 <h2>na mojej stronie</h2>
@@ -38,13 +40,10 @@
                     reiciendis adipisci, delectus amet mollitia.
                 </p>
             </article>
-            <figure class="col7">
-                <img src="img/sekcja1.png" alt="">
-            </figure>
         </div>
-        <div class="aboutTechnology">
+        <div class="aboutTechnology" id="aboutTechnology">
             <span class="margin"> </span>
-            <h2>pracuje</h2>
+            <h2>pracuję</h2>
             <h3>w technologiach</h3>
             <div class="listOfTechnology">
                 <div class="firstBox col3">
@@ -61,20 +60,20 @@
                 </div>
             </div>
         </div>
-        <div class="row socialMedia">
+        <div class="row socialMedia" id="aboutNetwork">
             <div class="fourthBox col4">
-                <h3>odwiedź mnie</h3>
-                <h4>na</h4>
-                <button class="linkedIn"><a href="#">Linkedin</a></button>
-                <button class="gitHub"><a href="#">GitHub</a></button>
+                <h3>zajrzyj w sieci</h3>
+                <h4>do mnie <span>na :</span></h4>
+                <a class="linkedIn button" href="https://www.linkedin.com/in/maciej-mazur-3749baa0/" target="blank">Linkedin</a>
+                <a class="gitHub button" href="https://github.com/mazurmaciej" target="blank">GitHub</a>
             </div>
             <div class="fifthBox col4">
                 <img src="img/socialmedia.png">
             </div>
         </div>
-        <footer class="col12">
-            <small>&copy; Copyright 2019, Maciej Mazur</small>
-            <a href="#">Email</a>
+        <footer class="col12" id="aboutContact">
+            <p class="myEmail"> Skontaktuj się ze mną via email, pisząc na adres: <a class="shortMail"href="mailto:mr.mazurmaciej@gmail.com">mr.mazurmaciej(małpa)gmail.com</a></p>
+            <p class="copyAuthor">&copy; Copyright 2019, Maciej Mazur. </p>
         </footer>
     </div>
 </body>
