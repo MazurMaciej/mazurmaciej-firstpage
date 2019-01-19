@@ -298,12 +298,27 @@ footer {
     .socialMedia {
         height: 60rem;
     }
+
+    .listOfTechnology{
+        flex-wrap: wrap;
+    }
+
+    .aboutTechnology {
+        height: 130rem;
+    }
+
+
 }
 
 @media (min-width: 610px) {
     nav ul {
         display: flex;
     }
-
 }
+
+@media (max-width: 466px) {
+    .aboutMe {
+        height: 95rem;
+        padding-top: 10rem;
+    }
 
