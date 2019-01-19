@@ -316,9 +316,25 @@ footer {
     }
 }
 
-@media (max-width: 466px) {
+@media (max-width: 550px) {
+
+
+    header {
+        display:none;
+    }
+   
+    .aboutMe {
+        height: 65rem;
+        padding-top: 5rem;
+    }
+
+    article h1 {
+        margin-top: 0rem;
+    }
+
+/* @media (max-width: 466px) {
     .aboutMe {
         height: 95rem;
         padding-top: 10rem;
-    }
+    } */
 
