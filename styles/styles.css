@@ -324,12 +324,12 @@ footer {
     }
    
     .aboutMe {
-        height: 65rem;
+        height: 70rem;
         padding-top: 5rem;
     }
 
     article h1 {
-        margin-top: 0rem;
+        margin-top: 5rem;
     }
 
 /* @media (max-width: 466px) {
