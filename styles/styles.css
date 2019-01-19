@@ -317,8 +317,10 @@ footer {
 }
 
 @media (max-width: 550px) {
-
-
+    .main {
+        width: 70%;
+        margin: 0 auto;
+    }
     header {
         display:none;
     }
