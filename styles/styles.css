@@ -348,8 +348,33 @@ footer {
 
     .button {
         width: 80%;
-        margin: 10px auto;
+        margin: 1rem auto;
+    }
     }
 
-    }
+    @media (max-width: 420px) {
+        .aboutMe {
+            height: 96rem;
+        }
 
+        .aboutTechnology h2 {
+            font-size: 3.5rem;
+        }
+
+        .aboutTechnology h3 {
+            font-size: 2.5rem;
+        }
+
+        .fourthBox h3 {
+            font-size: 3.5rem;
+        }
+        
+        .fourthBox h4 {
+            font-size: 3rem;
+        }
+
+        .button {
+            width: 80%;
+            margin: 0.5rem auto;
+        }
+    }
