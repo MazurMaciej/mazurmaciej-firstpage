@@ -1,11 +1,10 @@
 html {
-    font-size: 62.5%;
+    font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 .mainPage {
     width: 100%;
-    /* max-width: 177rem; */
     margin: 0 auto;
 }
 
@@ -28,7 +27,6 @@ nav ul {
 
 nav a {
     display: block;
-    /* text-align: space-evenly; */
     color: #5a5a5a;
     text-decoration: none;
     font-size: 2rem;
@@ -43,11 +41,9 @@ nav a:hover {
 
 .aboutMe {
     height: 80rem;
-    /* height: 80vh; */
-    /* justify-content: space-between; */
     box-sizing: border-box;
     background: url(../img/sekcja1.png) no-repeat right bottom;
-    /* background-size: 100%; (50% w mediaQueries- elementy do skalowania 
+        /* background-size: 100%; (50% w mediaQueries- elementy do skalowania 
     transition: background-size 1000ms; */
     margin: 0px;
 
@@ -78,6 +74,10 @@ article h2 {
     font-size: 2rem;
     line-height: 3.2rem;
     color: #585858;
+}
+
+.secondP {
+    margin-top: 2rem;
 }
 
 .aboutTechnology {
@@ -133,7 +133,7 @@ article h2 {
     width: 70rem;
 }
 
-.firstBox,.secondBox,.thirdBox img {
+.firstBox,.secondBox,.thirdBox {
     margin: 1rem;
 }
 
@@ -248,16 +248,62 @@ footer {
     color: #ffcc00;
 }
 
-@media (min-width: 96rem) {
+@media (max-width: 1490px) {
+    .fifthBox {
+        padding-top: 10rem;
+    }
+}
+
+@media (max-width: 1430px) {
+    .aboutMe {
+        transition: background-size 2000ms;
+        background-size: 80%; 
+    }
+}
+
+@media (max-width: 1008px) {
+    .aboutMe {
+        transition: background-size 1000ms;
+        background: none;
+    }
+}
+
+@media (max-width: 980px) {
+    .fifthBox img{
+        display:none;
+    }
+
+    .fifthBox {
+        margin: 0 auto;
+    }
+
+    .aboutMe {
+        margin: 0 auto;
+        display:flex;
+        align-items: center;
+    }
+
+    .socialMedia {
+        height: 60rem;
+    }
 
 }
 
-@media screen and (min-width: 35rem) {
+@media (max-width: 610px) {
+    .aboutMe {
+        height: 85rem;
+        padding-top: 10rem;
+    }
+
+    .socialMedia {
+        height: 60rem;
+    }
+}
+
+@media (min-width: 610px) {
     nav ul {
         display: flex;
     }
 
-    nav li {
-        flex: 1 1 0;
-    }
 }
+
