@@ -273,15 +273,6 @@ footer {
         display:none;
     }
 
-    .fifthBox {
-        margin: 0 auto;
-    }
-
-    .aboutMe {
-        margin: 0 auto;
-        display:flex;
-        align-items: center;
-    }
 
     .socialMedia {
         height: 60rem;
@@ -316,11 +307,23 @@ footer {
     }
 }
 
-@media (max-width: 550px) {
-    .main {
-        width: 70%;
-        margin: 0 auto;
+@media (max-width: 610px) {
+    .mainPage {
+        width: 80%;
     }
+
+    article {
+        margin-left: 1rem;
+    }
+
+    .aboutTechnology h2, .aboutTechnology h3 {
+        margin-left: 1rem;
+    }
+
+    .button {
+        margin-left:0;
+    }
+
     header {
         display:none;
     }
@@ -330,13 +333,23 @@ footer {
         padding-top: 5rem;
     }
 
+    .fourthBox h3, .fourthBox h4 {
+        margin-left: 1rem;
+    }
+
     article h1 {
         margin-top: 5rem;
     }
 
-/* @media (max-width: 466px) {
-    .aboutMe {
-        height: 95rem;
-        padding-top: 10rem;
-    } */
+    @media (max-width: 520px) {
+        .aboutMe {
+            height: 90rem;
+        }
+
+    .button {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    }
 
